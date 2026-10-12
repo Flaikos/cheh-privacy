@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cheh — Aide et contact</title>
+    <meta
+      name="description"
+      content="Aide de l’application Cheh : comment jouer, questions fréquentes et adresse de contact." />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0d0a1a;
+        --surface: rgba(255, 255, 255, 0.06);
+        --border: rgba(255, 255, 255, 0.14);
+        --text: #ffffff;
+        --text-soft: rgba(255, 255, 255, 0.72);
+        --text-dim: rgba(255, 255, 255, 0.45);
+        --accent: #db2777;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 48px 16px 80px;
+        background: radial-gradient(120% 60% at 50% 0%, #1e1240 0%, var(--bg) 60%, #08060f 100%);
+        background-attachment: fixed;
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        line-height: 1.6;
+      }
+      main {
+        max-width: 680px;
+        margin: 0 auto;
+      }
+      h1 {
+        margin: 0 0 4px;
+        font-size: 34px;
+        line-height: 1.2;
+      }
+      h2 {
+        margin: 0 0 12px;
+        font-size: 18px;
+      }
+      .app {
+        display: inline-block;
+        margin-bottom: 24px;
+        padding: 4px 14px;
+        border-radius: 999px;
+        background: linear-gradient(120deg, #7c3aed, #db2777);
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      p {
+        color: var(--text-soft);
+        margin: 0 0 20px;
+      }
+      .card {
+        margin: 24px 0;
+        padding: 20px 24px;
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        background: var(--surface);
+      }
+      .card p:last-child {
+        margin-bottom: 0;
+      }
+      ul {
+        color: var(--text-soft);
+        margin: 0 0 20px;
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+      a {
+        color: var(--accent);
+      }
+      footer {
+        margin-top: 48px;
+        color: var(--text-dim);
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <span class="app">Cheh</span>
+      <h1>Aide et contact</h1>
+      <p>
+        Cheh réunit cinq jeux de soirée qui se jouent à plusieurs, sur un seul téléphone qu’on se
+        passe de main en main. Pas de compte, pas de connexion, pas de publicité.
+      </p>
+
+      <div class="card">
+        <h2>Une question, un bug, une idée ?</h2>
+        <p>
+          Écris à <a href="mailto:timermido@gmail.com">timermido@gmail.com</a>. Précise le modèle de
+          ton téléphone et, si c’est un bug, ce que tu faisais juste avant : ça aide beaucoup.
+        </p>
+      </div>
+
+      <h2>Questions fréquentes</h2>
+      <ul>
+        <li>
+          <strong>Combien faut-il de joueurs ?</strong> De 3 à 20 pour Undercover, Imposteur Chrono
+          et Imposteur Dessin. Trouve la couleur et le Jeu de la connexion se jouent en deux
+          équipes.
+        </li>
+        <li>
+          <strong>Faut-il Internet ?</strong> Non, jamais. L’app fonctionne entièrement hors
+          connexion, y compris en avion ou à l’étranger.
+        </li>
+        <li>
+          <strong>Où sont enregistrés les prénoms et mes mots ?</strong> Uniquement sur ton
+          téléphone. Rien n’est envoyé nulle part — voir la
+          <a href="../">politique de confidentialité</a>.
+        </li>
+        <li>
+          <strong>Comment tout effacer ?</strong> Réglages → Effacer les données. Supprimer l’app
+          efface également tout.
+        </li>
+        <li>
+          <strong>L’app existe-t-elle en anglais ?</strong> Oui : Réglages → Langue. Les mots des
+          jeux changent aussi, ce ne sont pas des traductions automatiques.
+        </li>
+        <li>
+          <strong>Puis-je ajouter mes propres mots ?</strong> Oui : page Thèmes → Mes mots. Les
+          paires que tu écris sont tirées comme les autres.
+        </li>
+      </ul>
+
+      <footer>Cheh — jeux de soirée hors connexion.</footer>
+    </main>
+  </body>
+</html>
